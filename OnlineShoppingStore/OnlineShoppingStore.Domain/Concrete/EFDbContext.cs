@@ -10,6 +10,7 @@ namespace OnlineShoppingStore.Domain.Concrete
 {
     public class EFDbContext : DbContext
     {
-        public DbSet<Product> Products { get; set; }
+        public DbSet<Product> Products { get; set; } 
+        public DbSet<User> Users { get; set; } 
     }
 }

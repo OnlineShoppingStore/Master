@@ -38,7 +38,11 @@ namespace OnlineShoppingStore.WebUI.Controllers
             return View(new ShippingDetails());
         }*/
 
-        
+        public ViewResult Checkout()
+        {
+            return View(new ShippingDetails());
+        }
+        [HttpPost]
         public ViewResult Checkout(Cart cart, ShippingDetails shippingDetails)
         {
             if (cart.Lines.Count() == 0)

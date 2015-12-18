@@ -10,7 +10,10 @@
 <body>
     <div class="navbar navbar-inverse" role="navigation">
         <a class="navbar-brand" href="#">
-                Online Shopping Store
+                <span class="hidden-xs">Online Shopping Store</span>
+            <div class="visible-xs">Online</div>
+            <div class="visible-xs">Shopping</div>
+            <div class="visible-xs">Store</div>
         </a>
         @Html.Action("Summary", "Cart")
     </div>
