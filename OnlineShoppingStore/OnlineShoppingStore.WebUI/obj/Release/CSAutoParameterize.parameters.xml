@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="EFDbContext-Web.config Connection String" description="EFDbContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=SQL5019.myASP.NET;Initial Catalog=DB_9EAF9A_OnlineStore;User Id=DB_9EAF9A_OnlineStore_admin;Password=samplemail" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="F:\\OnlineShoppingStore\\OnlineShoppingStore\.WebUI\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='EFDbContext']/@connectionString" />
+  </parameter>
+</parameters>
